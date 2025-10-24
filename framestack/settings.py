@@ -181,10 +181,10 @@ import dj_database_url
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgresql://postgres:password@localhost:5432/dbname',
-        conn_max_age=600
+        default=os.environ.get('DATABASE_URL')
     )
 }
+
 
 INSTALLED_APPS += ['cloudinary', 'cloudinary_storage']
 
