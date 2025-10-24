@@ -33,7 +33,5 @@ urlpatterns = [
   path('messages/<str:email>/', MessageHistoryView.as_view(), name='message-history'),
     path('unread-count/', UnreadCountView.as_view(), name='unread-count'),
     path('contact-message/',ContactMessageCreateView.as_view(),name='contact-message'),
-  
-      
 ]
 
