@@ -26,7 +26,11 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG")
 
-ALLOWED_HOSTS = ['https://framestack.onrender.com/']
+ALLOWED_HOSTS = ['https://framestackbackend.onrender.com']
+
+CORS_ALLOWED_ORIGINS = [
+    'https://framestack.onrender.com/'
+]
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / "static"]  # if you have local static files
