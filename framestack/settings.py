@@ -28,10 +28,15 @@ DEBUG = os.getenv("DEBUG")
 
 ALLOWED_HOSTS = ['framestackbackend.onrender.com', 'framestack.onrender.com', 'localhost', '127.0.0.1']
 
-
 CORS_ALLOWED_ORIGINS = [
-    'https://framestack.onrender.com',
+    "https://framestack.onrender.com",
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://framestack.onrender.com",
+]
+
+CORS_ALLOW_CREDENTIALS = True
 
 ALLOWED_HOSTS = ['*']
 STATIC_URL = '/static/'
