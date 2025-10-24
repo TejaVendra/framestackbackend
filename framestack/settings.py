@@ -38,7 +38,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 CORS_ALLOW_CREDENTIALS = True
 
-ALLOWED_HOSTS = ['*']
+
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / "static"]  # if you have local static files
 STATIC_ROOT = BASE_DIR / "staticfiles"    # where collectstatic will store them
