@@ -177,18 +177,14 @@ ALLOWED_HOSTS = ['*']
 RAZORPAY_KEY_ID = ""
 RAZORPAY_KEY_SECRET = ""
 
+import dj_database_url
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'framestack',
-        'USER': 'root',
-        'PASSWORD': os.getenv('DATABASES_PASSWORD'),
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
+    'default': dj_database_url.config(
+        default='postgresql://postgres:password@localhost:5432/dbname',
+        conn_max_age=600
+    )
 }
-
 
 INSTALLED_APPS += ['cloudinary', 'cloudinary_storage']
 
