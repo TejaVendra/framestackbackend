@@ -26,7 +26,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://framestackbackend.onrender.com']
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / "static"]  # if you have local static files
@@ -172,7 +172,7 @@ EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD')  # See Step 2
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
-ALLOWED_HOSTS = ['*']
+
 
 RAZORPAY_KEY_ID = ""
 RAZORPAY_KEY_SECRET = ""
