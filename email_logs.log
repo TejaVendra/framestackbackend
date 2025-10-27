@@ -1,0 +1,44 @@
+INFO 2025-10-27 17:57:04,629 autoreload Watching for file changes with StatReloader
+INFO 2025-10-27 17:57:07,247 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-10-27 17:57:07,248 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-10-27 17:57:07,250 server Listening on TCP address 127.0.0.1:8000
+INFO 2025-10-27 17:58:02,628 autoreload C:\Users\vendr\Documents\Akhilbackend\framestack\framestack\settings.py changed, reloading.
+INFO 2025-10-27 17:58:04,593 autoreload Watching for file changes with StatReloader
+INFO 2025-10-27 17:58:07,093 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-10-27 17:58:07,102 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-10-27 17:58:07,104 server Listening on TCP address 127.0.0.1:8000
+INFO 2025-10-27 17:58:09,077 views Password reset email sent to teja.24bca8004@vitapstudent.ac.in
+INFO 2025-10-27 17:58:09,477 runserver [mHTTP POST /api/v1/forgot-password/ 200 [2.36, 127.0.0.1:59460][0m
+INFO 2025-10-27 17:58:41,215 views Password reset email sent to teja.24bca8004@vitapstudent.ac.in
+INFO 2025-10-27 17:58:41,226 runserver [mHTTP POST /api/v1/forgot-password/ 200 [1.55, 127.0.0.1:59460][0m
+INFO 2025-10-27 18:02:25,482 autoreload C:\Users\vendr\Documents\Akhilbackend\framestack\user\views.py changed, reloading.
+INFO 2025-10-27 18:02:26,459 autoreload Watching for file changes with StatReloader
+INFO 2025-10-27 18:02:28,555 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-10-27 18:02:28,564 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-10-27 18:02:28,564 server Listening on TCP address 127.0.0.1:8000
+INFO 2025-10-27 18:02:41,184 views Password reset email sent to trail6092@gmail.com
+INFO 2025-10-27 18:02:41,245 runserver [mHTTP POST /api/v1/forgot-password/ 200 [2.23, 127.0.0.1:51172][0m
+INFO 2025-10-27 18:02:42,188 views [SUCCESS] HTML email sent successfully to ['trail6092@gmail.com']
+INFO 2025-10-27 18:05:22,399 views Password reset email sent to trail6092@gmail.com
+ERROR 2025-10-27 18:05:22,405 views [ERROR] Failed to send email to ['trail6092@gmail.com']: [Errno 11001] getaddrinfo failed
+INFO 2025-10-27 18:05:22,411 runserver [mHTTP POST /api/v1/forgot-password/ 200 [1.72, 127.0.0.1:57655][0m
+INFO 2025-10-27 18:16:30,713 views Password reset email sent to trail6092@gmail.com
+INFO 2025-10-27 18:16:30,726 runserver [mHTTP POST /api/v1/forgot-password/ 200 [1.73, 127.0.0.1:50331][0m
+INFO 2025-10-27 18:16:31,839 views [SUCCESS] HTML email sent successfully to ['trail6092@gmail.com']
+INFO 2025-10-27 22:02:09,755 autoreload Watching for file changes with StatReloader
+INFO 2025-10-27 22:02:12,268 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-10-27 22:02:12,268 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-10-27 22:02:12,269 server Listening on TCP address 127.0.0.1:8000
+INFO 2025-10-27 22:04:56,734 autoreload Watching for file changes with StatReloader
+INFO 2025-10-27 22:04:58,793 server HTTP/2 support not enabled (install the http2 and tls Twisted extras)
+INFO 2025-10-27 22:04:58,793 server Configuring endpoint tcp:port=8000:interface=127.0.0.1
+INFO 2025-10-27 22:04:58,794 server Listening on TCP address 127.0.0.1:8000
+WARNING 2025-10-27 22:05:02,072 log Not Found: /
+WARNING 2025-10-27 22:05:02,073 runserver [33mHTTP GET / 404 [0.04, 127.0.0.1:65325][0m
+WARNING 2025-10-27 22:05:02,162 log Not Found: /favicon.ico
+WARNING 2025-10-27 22:05:02,163 runserver [33mHTTP GET /favicon.ico 404 [0.01, 127.0.0.1:65325][0m
+WARNING 2025-10-27 22:05:06,025 log Method Not Allowed: /api/v1/forgot-password/
+WARNING 2025-10-27 22:05:06,026 runserver [31;1mHTTP GET /api/v1/forgot-password/ 405 [0.29, 127.0.0.1:65325][0m
+INFO 2025-10-27 22:05:17,167 views Password reset email sent to trail6092@gmail.com
+INFO 2025-10-27 22:05:17,183 runserver [mHTTP POST /api/v1/forgot-password/ 200 [2.47, 127.0.0.1:65325][0m
+INFO 2025-10-27 22:05:18,448 views [SUCCESS] HTML email sent successfully to ['trail6092@gmail.com']

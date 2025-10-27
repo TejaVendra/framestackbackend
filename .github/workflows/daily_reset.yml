@@ -1,0 +1,30 @@
+name: Daily Reset Expired Plans
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # runs every day at 00:00 UTC
+
+jobs:
+  reset:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install -r requirements.txt
+
+      - name: Run reset command
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          DJANGO_SECRET_KEY: ${{ secrets.DJANGO_SECRET_KEY }}
+        run: |
+          source venv/bin/activate
+          python manage.py reset_expired_plans
